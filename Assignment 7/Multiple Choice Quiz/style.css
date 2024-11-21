@@ -1,0 +1,30 @@
+body{
+    border: solid;
+    justify-items: center;
+    background-color: black;
+    background-color: lightgray;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#start-quiz{
+    background-color: rgb(105, 235, 222);
+    border-radius: 20px;
+}
+#quiz-container{
+    border: 2px;
+    background-color: aqua;
+
+}
+
+#submit-quiz{
+    background-color: red;
+    border-radius: 20px;
+}
+#score-container{
+    background-color: cornsilk;
+    border: solid;
+}
+h2{
+    color: purple;
+    
+}

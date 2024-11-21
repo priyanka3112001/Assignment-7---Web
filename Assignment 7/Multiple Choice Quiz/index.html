@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <b> <h2>Trivia Quiz</h2></b>
+
+   
+    <label for="category">Category:</label>
+    <select id="category"></select>
+
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+    <button id="start-quiz">Start Quiz</button>
+
+    <div id="quiz-container" style="display: none;"></div>
+
+    <button id="submit-quiz" style="display: none;">Submit Quiz</button>
+
+    <div id="score-container"></div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+<script src="./js.js"></script>
